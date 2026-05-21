@@ -1,0 +1,7 @@
+// Speculative builtin-state probe
+WAITSET 200
+WT_LOG
+wait 1000
+set V_AV = 1
+wait 1000
+END

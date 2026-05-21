@@ -1,0 +1,16 @@
+// Try a small display-routing sequence
+WAITSET 200
+WT_LOG
+wait 1000
+key HDTV ON
+wait 500
+key EVF_LCD ON
+wait 500
+key EVF_LCD OFF
+wait 500
+key DISP_B ON
+wait 300
+key DISP_B OFF
+wait 300
+key K_PLAY OFF
+END

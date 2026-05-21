@@ -1,0 +1,28 @@
+# Local research material.
+private-review/
+
+# Local inputs and generated analysis output.
+*.DAT
+*.dat
+*.bin
+*.rom
+*.img
+*.sqlite
+*.sqlite3
+extracted/
+extracted_patched/
+patched/
+pyghidra_*/
+*.gpr/
+*.rep/
+
+# Python artifacts.
+__pycache__/
+*.py[cod]
+.coverage
+htmlcov/
+
+# Local/editor files.
+.DS_Store
+.idea/
+.vscode/

@@ -1,0 +1,8 @@
+// Try the documented HDTV key token directly
+WAITSET 200
+WT_LOG
+wait 1000
+key HDTV ON
+wait 1000
+key HDTV OFF
+END
